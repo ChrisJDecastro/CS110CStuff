@@ -1,0 +1,18 @@
+The high score list contains 
+1 30 42 1337 
+
+Please enter your score(DON'T LIE)
+If you enter a negative score, you broke the game and the program will end.
+20
+The high score list contains 
+1 20 30 42 1337 
+
+Please enter your score(DON'T LIE)
+If you enter a negative score, you broke the game and the program will end.
+1000000
+The high score list contains 
+1 20 30 42 1337 1000000 
+
+Please enter your score(DON'T LIE)
+If you enter a negative score, you broke the game and the program will end.
+-1
