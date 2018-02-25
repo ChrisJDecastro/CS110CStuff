@@ -1,0 +1,97 @@
+[cdecast2@hills ~]$ g++ dictionary.cpp dictionary.h person.h person.cpp birthdayMain.cpp
+[cdecast2@hills ~]$ a.out
+MAX NUMBER OF ITEMS ALLOWED IN DICTIONARY: 6
+Testing addEntry: Chris
+Displaying all 1 entries: 
+Chris | January 14, 1997
+
+Testing addEntry: Christian
+Displaying all 2 entries: 
+Chris | January 14, 1997
+Christian | August 24, 1996
+
+Testing addEntry: Reggie
+Displaying all 3 entries: 
+Chris | January 14, 1997
+Christian | August 24, 1996
+Reggie | July 24, 1997
+
+Testing addEntry: Luke
+Displaying all 4 entries: 
+Chris | January 14, 1997
+Christian | August 24, 1996
+Luke | Jan 2, 1923
+Reggie | July 24, 1997
+
+Testing addEntry: Kyle
+Displaying all 5 entries: 
+Chris | January 14, 1997
+Christian | August 24, 1996
+Kyle | May 20, 2919
+Luke | Jan 2, 1923
+Reggie | July 24, 1997
+
+Testing addEntry: Chiong
+Displaying all 6 entries: 
+Chiong | May 14, 2014
+Chris | January 14, 1997
+Christian | August 24, 1996
+Kyle | May 20, 2919
+Luke | Jan 2, 1923
+Reggie | July 24, 1997
+
+Testing addEntry: Ari
+ERROR: Array is full, cannot add another entry.
+Displaying all 6 entries: 
+Chiong | May 14, 2014
+Chris | January 14, 1997
+Christian | August 24, 1996
+Kyle | May 20, 2919
+Luke | Jan 2, 1923
+Reggie | July 24, 1997
+
+Testing search dictionary for the birthday of Chris: January 14, 1997
+Testing search dictionary for the birthday of Gary: Gary not found...
+
+List of names of people born in May: 
+Chiong | May 14, 2014
+Kyle | May 20, 2919
+List of names of people born in January: 
+Chris | January 14, 1997
+List of names of people born in July: 
+Reggie | July 24, 1997
+
+TESTING REMOVE, removing Chris:
+Displaying all 5 entries: 
+Chiong | May 14, 2014
+Christian | August 24, 1996
+Kyle | May 20, 2919
+Luke | Jan 2, 1923
+Reggie | July 24, 1997
+
+
+TESTING REMOVE, removing Reggie:
+Displaying all 4 entries: 
+Chiong | May 14, 2014
+Christian | August 24, 1996
+Kyle | May 20, 2919
+Luke | Jan 2, 1923
+
+
+TESTING REMOVE, removing Christian:
+Displaying all 3 entries: 
+Chiong | May 14, 2014
+Kyle | May 20, 2919
+Luke | Jan 2, 1923
+
+
+TESTING REMOVE, removing Luke:
+Displaying all 2 entries: 
+Chiong | May 14, 2014
+Kyle | May 20, 2919
+
+
+TESTING REMOVE, removing Chiong:
+Displaying all 1 entries: 
+Kyle | May 20, 2919
+

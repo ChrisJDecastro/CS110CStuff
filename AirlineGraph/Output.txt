@@ -1,0 +1,7 @@
+[cdecast2@hills LinkedList]$ g++ -std=c++11 -static-libstdc++ *.cpp 
+[cdecast2@hills LinkedList]$ ./a.out
+The cheapest route from SFO to LAX is:$120
+The cheapest route from SFO to LAS is:$150
+The cheapest route from SFO to PHX is:$195
+The cheapest route from SFO to DEN is:$345
+The cheapest route from SFO to JFK is:$470

@@ -1,0 +1,5 @@
+[cdecast2@hills ~]$ a.out
+9 Mary will now see the doctor.
+7 Stacy will now see the doctor.
+6 Jennifer will now see the doctor.
+5 Chang will now see the doctor.
