@@ -1,0 +1,15 @@
+[cdecast2@hills ~]$ a.out
+Please enter a string to determine if it's a palinedrome.
+yzy
+
+yzy is a palindrome.
+[cdecast2@hills ~]$ a.out
+Please enter a string to determine if it's a palinedrome.
+aslkdjfkaljfnjk
+
+aslkdjfkaljfnjkis not a palindrome.
+[cdecast2@hills ~]$ a.out
+Please enter a string to determine if it's a palinedrome.
+wtwtwtwtwtwtwtw
+
+wtwtwtwtwtwtwtw is a palindrome.
